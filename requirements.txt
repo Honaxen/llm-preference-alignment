@@ -1,0 +1,11 @@
+# Root requirements for llm-preference-alignment.
+
+# --- Training (SFT merge + DPO) ---
+torch
+transformers
+datasets
+peft
+trl
+
+# --- Testing ---
+pytest
